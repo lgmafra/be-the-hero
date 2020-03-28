@@ -1,15 +1,11 @@
 import React from "react";
 
+import "./global.css";
+
+import Logon from "./pages/Logon";
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
+  return <Logon />;
 }
 
 export default App;
